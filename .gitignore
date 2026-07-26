@@ -1,0 +1,9 @@
+credentials.json
+*.credentials.json
+joe_equine_db/
+*.sqlite3
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
