@@ -470,7 +470,8 @@ def format_animal_context(animal: dict) -> str:
     if not animal:
         return ""
 
-    lines = [f"--- ANIMAL RECORD (from tab: {animal.get('source', 'Dave\'s Vet Station')}) ---"]
+    _src = animal.get('source', 'the Vet Station')
+    lines = [f"--- ANIMAL RECORD (from tab: {_src}) ---"]
 
     # LIN up top — the provenance anchor.
     if animal.get("lin"):
