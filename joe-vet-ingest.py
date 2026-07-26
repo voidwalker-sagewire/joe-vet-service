@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+!/usr/bin/env python3
 """
 HerdMate Vet AI — Document Ingestion Script
 Run this on your DigitalOcean server to populate ChromaDB
